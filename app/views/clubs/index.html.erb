@@ -1,0 +1,19 @@
+
+<%= form_tag clubs_path, :method => 'get', :id => "clubs-search" do%>
+    <%= hidden_field_tag :direction, params[:direction] %>
+    <%= hidden_field_tag :sort, params[:sort] %>
+    <p>
+      <%= text_field_tag :search, params[:search] %>
+      <%= submit_tag "Search", :name => nil %>
+    </p>
+<% end %>
+<h1>Listing clubs</h1>
+
+<div id="clubs">
+  <%= render 'clubs' %>
+</div>
+<%= will_paginate @clubs %>
+<br />
+<% if current_user && current_user.admin? %>
+    <%= link_to 'New Club', new_club_path %>
+<% end %>

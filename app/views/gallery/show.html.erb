@@ -1,0 +1,39 @@
+<h1>Gallery</h1>
+<div class="section" id="example">
+  <h3>Division 3 League Final</h3>
+  <div class="imageRow">
+    <div class="set">
+      <div class="single first">
+        <p><%= link_to image_tag("LeagueFinal/1.JPG"), "/assets/LeagueFinal/1BIG.JPG", :rel => "lightbox[plants]" %></p>
+      </div>
+      <div class="single">
+        <p><%= link_to image_tag("LeagueFinal/2.JPG"), "/assets/LeagueFinal/2BIG.JPG", :rel => "lightbox[plants]" %></p>
+      </div>
+      <div class="single">
+        <p><%= link_to image_tag("LeagueFinal/3.JPG"), "/assets/LeagueFinal/3BIG.JPG", :rel => "lightbox[plants]"%></p>
+      </div>
+      <div class="single">
+        <p><%= link_to image_tag("LeagueFinal/10.JPG"), "/assets/LeagueFinal/3BIG.JPG", :rel => "lightbox[plants]" %></p>
+      </div>
+      <div class="single">
+        <p><%= link_to image_tag("LeagueFinal/11.JPG"), "/assets/examples/image-5.jpg", :rel => "lightbox[plants]"%></p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+    jQuery(document).ready(function($) {
+        $("p").smoothScroll({
+            speed: 1000,
+            easing: 'easeInOutCubic'
+        });
+
+        $('.showOlderChanges').on('click', function(e){
+            $('.changelog .old').slideDown('slow');
+            $(this).fadeOut();
+            e.preventDefault();
+        })
+    });
+</script>

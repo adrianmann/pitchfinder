@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @club.name %>
+</p>
+
+<p>
+  <b>Crest:</b>
+<p>
+  <%= image_tag (@club.crest), :class=>"crest" %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @club.address %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @club.description %>
+</p>
+
+<p>
+  <b>Longtitude:</b>
+  <%= @club.longtitude %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%= @club.latitude %>
+</p>
+
+
+<%= link_to 'Edit', edit_club_path(@club) %> |
+<%= link_to 'Back', clubs_path %>

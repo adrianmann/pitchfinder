@@ -1,0 +1,29 @@
+<table id ="clubs_table">
+  <tr>
+    <th><%= sortable "name" %></th>
+    <th><%= sortable "crest" %></th>
+    <th><%= sortable "address" %></th>
+    <th><%= sortable "description" %></th>
+    <th><%= sortable "longtitude" %></th>
+    <th><%= sortable "latitude" %></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+  <% @clubs.each do |club| %>
+      <tr>
+        <td><%= club.name %></td>
+        <td><%= image_tag club.crest, :class=>"crest" %></td>
+        <td><%= club.address %></td>
+        <td><%= club.description %></td>
+        <td><%= club.longtitude %></td>
+        <td><%= club.latitude %></td>
+        <td><%= link_to 'Show', club %></td>
+        <% if current_user && current_user.admin? %>
+            <td><%= link_to 'Edit', edit_club_path(club) %></td>
+            <td><%= link_to 'Destroy', club, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% end %>
+      </tr>
+  <% end %>
+</table>

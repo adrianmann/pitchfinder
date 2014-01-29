@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Pitch Finder</title>
+
+
+    <script
+            type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVxUsGFI2IC_NzqQt2UtrXik1vxNa7K1E&sensor=true">
+    </script>
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css" title="Original">
+    <link rel="alternate stylesheet" type="text/css" href="stylesheets/altrenate.css" title="Alternate" />
+</head>
+
+<body>
+<div id="menu">
+    <a href="home.html">Home</a>
+    <a href="/clubs">Clubs</a>
+    <a href="/gallery/show">Gallery</a>
+    <a href="blog.html">Blog</a>
+</div>
+<div id="switchingstyles">
+    <h2>
+        <a href="#" id="Original">Original</a>
+        <br /><a href="#" id="Alternate">Alternative</a>
+    </h2>
+</div>
+<div id="sidebar">
+    <h2>Find a pitch</h2>
+    <p>Find a club on the map.</p>
+    <p>or</p>
+    <p>Find exact directions from your current location to the club of your choice below with Google maps.</p>
+    <form id="clubs-form" name="input" action="http://maps.google.com/maps" method="get" target="_blank">
+        <div class="saddr">
+            <strong><label for="saddr">Choose your starting point (A):</label></strong>
+          <br />
+            <select name="saddr">
+                <option value="" id="my_location" name="saddr"/>My Location</option>
+            </select>
+        </div>
+           <br />
+        <strong><label for="daddr">Please enter your destination club (B) : </label></strong><input type="text" id="destination-search" name="daddr" value=""/><br />
+        <input id="search-button" type="submit" value="Search"><br />
+    </form>
+    <div id="addresses">
+        <div id="daddr-address">
+            <p>Displayed above are the exact coordinates for (B): <br />
+            <p id="dlocation"></p></p>
+        </div>
+    </div>
+</div>
+<div id="nothing">
+     <img src = "offaly-gaa-crest-250.jpg" width = "50%" height="70%" />
+    <!-- loading bar displayed durring ajax requests -->
+    <div id="loading" class="hidden">
+        <img src="http://sierrafire.cr.usgs.gov/images/loading.gif" width="150px" height="150px" />
+        <span>Loading, please wait ...</span>
+    </div>
+</div>
+<div id="map-canvas2">
+
+
+</div>
+<div id="map-canvas">
+    <iframe src="https://mapsengine.google.com/map/embed?mid=zDL5M2uNoEqs.kSqdpulkyMuI" width="100%" height="98.5%"></iframe>
+</div>
+<div id="panel-right">
+</div>
+<div class="slide-right">
+    <a href="#" class="pull-me-right">My Current Location<img src ="assets/prev.png" width="27px" height = "27px" class ="arrow_right" ></a>
+</div>
+<a href="#" class="slide-right-close">
+    <img src ="assets/next.png" width = "27px" height ="27px" />
+</a>
+<script type="text/javascript" src="javascripts/switcher.js"></script>
+<script src="javascripts/scripts.js"></script>
+</body>
+</html>

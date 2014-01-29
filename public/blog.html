@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title> Blog </title>
+    <script type="text/javascript">
+        var XMLHttpRequestObject = false;
+        if (window.XMLHttpRequest) {
+            XMLHttpRequestObject = new XMLHttpRequest();
+        } else if (window.ActiveXObject) {
+            XMLHttpRequestObject =
+                    new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        function getData(datasource, divID) {
+            if (XMLHttpRequestObject) {
+                var obj = document.getElementById(divID);
+                XMLHttpRequestObject.open("GET", datasource, true);
+                XMLHttpRequestObject.onreadystatechange = function () {
+                    if (XMLHttpRequestObject.readyState == 4
+                            && XMLHttpRequestObject.status == 200) {
+                        obj.innerHTML = XMLHttpRequestObject.responseText;
+                    }
+                }
+                XMLHttpRequestObject.send(null);
+            }
+        }
+
+
+    </script>
+    <script type="text/javascript" src="/javascripts/jquery.flexisel.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+</head>
+<body>
+<h1> Blog posts </h1>
+<ul id="posts-images">
+    <li><img src="offaly-gaa-crest-250.jpg" width="130" height="130" cursor="pointer"
+                 onClick="getData('firstBlog.txt','blog')"/></li>
+        <li><img src="niall-mc.jpg"  width="150" height="130" cursor="pointer"
+                 onClick="getData('niall-mc-first.txt','blog')"/></li>
+        <li><img src="niall-mc-2.jpg"  width="150" height="130" cursor="pointer"
+                 onClick="getData('niall-mc-second.txt','blog')"/></li>
+        <li><img src="niall-mc-3.jpg"  width="150" height="130" cursor="pointer"
+                 onClick="getData('niall-mc-third.txt','blog')"/></li>
+        <li><img src="niall-mc-4.jpg"  width="150" height="130" cursor="pointer"
+                 onClick="getData('niall-mc-fourth.txt','blog')"/></li>
+</ul>
+<div id="blog"> </div>
+</body>
+<script>
+    $(window).load(function() {
+        $("#posts-images").flexisel();
+    });
+</script>
+</html>
