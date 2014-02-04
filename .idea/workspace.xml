@@ -19,7 +19,7 @@
     <file path="/_form.html.erb" changelist="7b92db0a-4af0-4c10-8b70-492b97b9344b" time="1387467652162" ignored="false" />
     <file path="/20131219154539_add_admin_to_users.rb" changelist="7b92db0a-4af0-4c10-8b70-492b97b9344b" time="1387468011871" ignored="false" />
     <file path="/lightbox.js.erb" changelist="7b92db0a-4af0-4c10-8b70-492b97b9344b" time="1387473342533" ignored="false" />
-    <file path="$PROJECT_DIR$/../Advanced Client Side Scripting/ajax/public/testajax.html" changelist="7b92db0a-4af0-4c10-8b70-492b97b9344b" time="1387475150774" ignored="false" />
+    <file path="$USER_HOME$/Advanced Client Side Scripting/ajax/public/testajax.html" changelist="7b92db0a-4af0-4c10-8b70-492b97b9344b" time="1387475150774" ignored="false" />
     <file path="/routes.rb" changelist="7b92db0a-4af0-4c10-8b70-492b97b9344b" time="1387475707599" ignored="false" />
     <file path="/application.js" changelist="7b92db0a-4af0-4c10-8b70-492b97b9344b" time="1387631529193" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="7b92db0a-4af0-4c10-8b70-492b97b9344b" time="1387726117246" ignored="false" />
@@ -59,24 +59,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/clubs/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/blog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="41" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,10 +86,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
+      <file leaf-file-name="scripts.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="39" selection-start="2474" selection-end="2474" vertical-scroll-proportion="0.0">
+            <state line="59" column="23" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.2562814">
               <folding />
             </state>
           </provider>
@@ -122,10 +113,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scripts.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/scripts.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="23" selection-start="2469" selection-end="2469" vertical-scroll-proportion="1.7057823">
+            <state line="64" column="39" selection-start="2474" selection-end="2474" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="41" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/clubs/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/clubs/index.html.erb" />
         <option value="$PROJECT_DIR$/public/testajax.html" />
         <option value="$PROJECT_DIR$/public/firstBlog.txt" />
         <option value="$PROJECT_DIR$/public/AjaxBleach.txt" />
@@ -157,6 +165,7 @@
         <option value="$PROJECT_DIR$/public/javascripts/scripts.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -164,7 +173,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1376" />
-    <option name="height" value="784" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -192,8 +201,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -524,12 +531,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Advanced Client Side Scripting/Labs/js002" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Advanced Client Side Scripting/Labs/js002" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -772,14 +781,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="784" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1376" height="780" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28843227" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2929985" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -855,11 +864,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/niall-mc-2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/niall-mc-3.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -948,7 +952,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="23" selection-start="2469" selection-end="2469" vertical-scroll-proportion="1.7057823">
+        <state line="59" column="23" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.2562814">
           <folding />
         </state>
       </provider>
